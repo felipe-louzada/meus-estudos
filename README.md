@@ -28,7 +28,7 @@
 
 - Acessando Dados em Arrays com Índices: Você pode acessar elementos em um array usando índices, que são especificados dentro de colchetes. Arrays utilizam indexação baseada em zero, então o primeiro elemento tem o índice 0. Por exemplo:  
 
-     `const array = [50, 60, 70];` 
+     const array = [50, 60, 70];
      `console.log(array[0]); // Imprime 50` 
      `const data = array[1]; // data tem o valor 60`
      Para acessar o primeiro valor de um array, use o índice `0`.
