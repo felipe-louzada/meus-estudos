@@ -64,7 +64,7 @@
     `const numbers = [10, 20, 30];`
     `const removed = numbers.pop();`
     `console.log(removed); // 30`
-    `console.log(numbers); // [10, 20]`
+    console.log(numbers); // [10, 20]
 
 
 - O método .`pop()` remove o último elemento de um array e retorna esse valor. Ele modifica o array original ao retirar o item final, o `.shift( )` é igual ao `.pop` mas invés de remover o ultimo, remove o primeiro.
