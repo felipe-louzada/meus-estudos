@@ -66,9 +66,18 @@
     `console.log(removed); // 30`
     `console.log(numbers); // [10, 20]`
 
+- O método `unshift()` insere um ou mais elementos no início de um array, deslocando os elementos existentes para a direita. `shift()` remove o primeiro elemento no ínicio.
+    `const numbers = [2, 3, 4];`
+    `numbers.unshift(1); // Adiciona 1 no início`
+    `console.log(numbers); // [1, 2, 3, 4]`
+     Neste exemplo, o valor `1` é inserido no início do array `numbers`, que passa a ser `[1, 2, 3, 4]`.
 
-- O método .`pop()` remove o último elemento de um array e retorna esse valor. Ele modifica o array original ao retirar o item final, o `.shift( )` é igual ao `.pop` mas invés de remover o ultimo, remove o primeiro.
-    `const numbers = [10, 20, 30];`
-    `const removed = numbers.pop();`
-    `console.log(removed); // 30`
-    `console.log(numbers); // [10, 20]`
+-**Lista de compras:** Você pode criar uma lista de compras usando arrays multidimensionais, onde cada sub-array contém o nome de um item e sua quantidade.
+    `const myList = [`
+       `["Apples", 4],`
+       `["Oranges", 2],`
+       `["Milk", 1],`
+       `["Bread", 3],`
+       `["Eggs", 12]`
+     `];`
+     Neste exemplo, myList contém uma lista de compras com 5 itens, cada um com sua respectiva quantidade.
