@@ -72,7 +72,7 @@
     `console.log(numbers); // [1, 2, 3, 4]`
      Neste exemplo, o valor `1` é inserido no início do array `numbers`, que passa a ser `[1, 2, 3, 4]`.
 
--**Lista de compras:** Você pode criar uma lista de compras usando arrays multidimensionais, onde cada sub-array contém o nome de um item e sua quantidade.
+- **Lista de compras:** Você pode criar uma lista de compras usando arrays multidimensionais, onde cada sub-array contém o nome de um item e sua quantidade.
     `const myList = [`
        `["Apples", 4],`
        `["Oranges", 2],`
