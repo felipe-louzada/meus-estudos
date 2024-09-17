@@ -81,3 +81,10 @@
        `["Eggs", 12]`
      `];`
      Neste exemplo, myList contém uma lista de compras com 5 itens, cada um com sua respectiva quantidade.
+
+- **Funções:** Funções em JavaScript permitem que você execute o mesmo código repetidamente sem precisar reescrevê-lo.
+    ` function reusableFunction() {`
+       `console.log("Hi World");`
+ ` }`
+     `reusableFunction(); // Chama a função e imprime "Hi World"`
+  Neste exemplo, a função `reusableFunction` imprime "Hi World" no console quando é chamada.
